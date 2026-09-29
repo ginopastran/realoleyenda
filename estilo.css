@@ -1,0 +1,9 @@
+:root { --fondo: #fbf7ee; --tinta: #1a1626; --suave: #5c5566; --acento: #b8661f; }
+@media (prefers-color-scheme: dark) { :root { --fondo: #1a1626; --tinta: #f3eee4; --suave: #b3abbd; --acento: #ffce68; } }
+body { margin: 0; background: var(--fondo); color: var(--tinta); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+h1 { margin: 0 0 4px; line-height: 1.25; }
+h2 { margin-top: 32px; font-size: 1.15em; }
+.lema { color: var(--suave); margin-top: 0; }
+a { color: var(--acento); }
+hr { margin: 48px 0; border: 0; border-top: 1px solid var(--suave); opacity: .4; }
